@@ -18,17 +18,16 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/tvAndroid"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/c346"
+        android:text="@string/textview"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/tviPad"
+    <Button
+        android:id="@+id/btnMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/c349"
-        android:textSize="18sp" />
+        android:layout_marginTop="20dp"
+        android:text="@string/main_activity" />
 </LinearLayout>
